@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+      <meta charset="UTF-8">
+      <meta http-equiv="X-UA-Compatible" content="IE=edge">
+       <meta name="viewport" content="width=device-width, initial-scale=1.0">
+       <title>about</title>
+       <link rel="shortcut icon" type="image/png" href="images/strawberry.png">
+       <link rel="stylesheet" type="text/css"
+         href="style.css">
+    </head>
+
+    <body>
+
+
+      <!--headshots-->  
+     <img src="images/me.jpg" alt="portrait" class="me">
+  
+     <h2 class="aboutTitle" id="aboutlinks"> Breanna Tam
+      is a <a href="garden.html"><i>visual designer</i></a>, who enjoys branding, 
+      illustrations, photography, and videography</a>.
+    </h2>
+    
+    <p class="description">Hi hi, I’m Breanna (Bre) born and raised in Toronto, with a focus on visual design and photography.
+       I am currently a Global Business and Digital Arts student at the University of Waterloo.</p>
+
+    <p class="description2">I am a passionate designer who seeks to change how users and audiences interact with my designs for the better.
+        To me, design is the quickest way to share important information, in a more meaningful and gratifying way. </p>
+      
+    <p class="description3">I continue to challenge myself through new learning experiences to expand my creative and technical skills. 
+      From past experience, I have gained several skills that have expanded my knowledge both in the creative and business industries. 
+      By following design systems, I have learned to be as expressive as possible, while only using brand guidelines. This allows me to 
+      express my skills with the company’s business vision in mind. </p>
+
+    <nav id="topnav" class="topnav">
+      <img src="images/PersonalLogo.png" alt="logo" id="logo">
+      <a class="active" href="./about">about</a>
+      <a href="./garden.html">garden &#9880</a>
+      <a href="./index.html">home</a>
+      </nav>
+
+
+      <ul class="info">
+        <li><strong>Education |</strong></li>
+        <li>Global Business Digital Arts, University of Waterloo</li>
+        <li>Arts Undergraduate
+          4 years: 2020-2024</li>
+      </ul> 
+
+      <ul class="info2">
+        <li><strong>Software |</strong></li>
+        <li>Adobe</li>
+        <li>Indesign</li>
+        <li>Photoshop</li>
+        <li>Illustrator</li>
+        <li>Premiere Pro</li>
+        <li>After Effects</li>
+        <li>Procreate</li>
+        <li>Microsoft Office</li>
+        <li>HTML/CSS</li>
+        <li>Figma</li>
+        <li>Sketch Up</li>
+      </ul> 
+
+      <script>
+      var prevScrollpos = window.pageYOffset;
+      window.onscroll = function() {
+      var currentScrollPos = window.pageYOffset;
+     if (prevScrollpos > currentScrollPos) {
+     document.getElementById("topnav").style.top = "0";
+     } else {
+     document.getElementById("topnav").style.top = "-70px";
+     }
+     prevScrollpos = currentScrollPos;
+    }
+    
+</script>
+</body>
