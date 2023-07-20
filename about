@@ -36,7 +36,7 @@
       <img src="images/PersonalLogo.png" alt="logo" id="logo">
       <a class="active" href="./about">about</a>
       <a href="./garden">garden &#9880</a>
-      <a href="./">home</a>
+      <a href="./index">home</a>
       </nav>
 
 
