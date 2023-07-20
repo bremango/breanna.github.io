@@ -29,11 +29,8 @@
         <a href="./">home</a>
       </nav>
 
-      <div class="gardentitles">
-      <h2> | Social Media Posts |</h2>
 
 
-      </div>
 
       <script>
       var prevScrollpos = window.pageYOffset;
