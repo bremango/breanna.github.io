@@ -1,0 +1,109 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+      <meta charset="UTF-8">
+      <meta http-equiv="X-UA-Compatible" content="IE=edge">
+       <meta name="viewport" content="width=device-width, initial-scale=1.0">
+       <title>home</title>
+       <link rel="shortcut icon" type="image/png" href="images/strawberry.png">
+       <link rel="stylesheet" type="text/css"
+         href="style.css">
+
+    </head>
+
+    <body>
+      <div>
+        <!--Headings-->
+        <div>
+          <h1 id="NameTitle">Breanna Tam</h1>
+          <img src="images/landscape.gif" alt="Landscape" class="responsive">
+        </div>
+
+        <h2 id="welcome">welcome to my creative space</h2>
+              
+        <!--GIFS-->
+          <img src="images/rightline.svg" alt="lineart" class="lineart">
+          <img src="images/rightline.svg" alt="lineart" class="lineart2">
+          <img src="images/dragonflies.gif" alt="Dragonflies" class="dragonsleft">
+          <img src="images/dragonflies2.gif" alt="Dragonflies" class="dragonsright">
+        </div>
+
+        <!--Nav-->
+          <nav id="topnav" class="topnav">
+          <img src="images/PersonalLogo.png" alt="logo" id="logo">
+          <a href="./about.html">about</a>
+          <a href="./garden.html">garden &#9880</a>
+          <a class="active" href="./index.html">home</a>
+          </nav>
+                  
+        <!--BeSpoke-->
+        <div class="bespokeContainer">
+          <a href="Bespoke.html">
+          <img src="images/ThumbnailBean.jpg" alt="bespoke" class="image">
+          <div class="overlay overlay--blur">
+            <div class="text">"BeSpoke"</div>
+            <p class="bespokeDESC">
+              A simple and intuitive tool, powered by machine learning,
+              to find you the best coffee shops and personalized drinks
+           </p>
+          </div>
+        </div>
+
+        <!--BLND-->
+        <div class="BLNDContainer">
+          <a href="BLND.html">
+          <img src="images/ThumbnailBLND.jpg" alt="BLND" class="image">
+          <div class="overlay overlay--blur">
+            <div class="text">"BLND"</div>
+          <p class="blndDesc">A music-based platform used to connect students across Canada that
+            share the same passions to learn and grow within the community
+          </p>
+        </a>
+        </div>
+      </div>
+
+        <!--ChinaCottage-->     
+        <div class="chinaContainer">
+        
+          <img src="images/ThumbnailChina.jpg" alt="chinacottage" class="image">
+          <a href="China.html">
+          <div class="overlay overlay--blur">
+            <div class="text">"China Cottage Redesign"</div>
+            <p class="chinaDesc">A website redesign for China Cottage, a Toronto-based
+            Hakka Restaurant
+           </p>
+         </div>
+        </div>
+        
+        <!--Barangay-->
+        <div class="barangayContainer">
+          <a href="barangay.html">
+          <img src="images/ThumbnailBarangay.jpg" alt="barangay" class="image">
+          <div class="overlay overlay--blur">
+          <div class="text">"Barangay"</div>
+          <p class="barangayDesc"> An inclusive, community-oriented application that enables Filipino
+            immigrants of Canada to foster digital literacy and career-building skills in exploring the
+            Canadian job market. </p>
+        </div>
+      </div>
+
+      <div class="contactme">
+
+
+      </div>
+
+        <script>
+        var prevScrollpos = window.pageYOffset;
+        window.onscroll = function() {
+        var currentScrollPos = window.pageYOffset;
+       if (prevScrollpos > currentScrollPos) {
+       document.getElementById("topnav").style.top = "0";
+       } else {
+       document.getElementById("topnav").style.top = "-70px";
+       }
+       prevScrollpos = currentScrollPos;
+}
+</script>
+
+    </body>
+</html>
