@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+      <meta charset="UTF-8">
+      <meta http-equiv="X-UA-Compatible" content="IE=edge">
+       <meta name="viewport" content="width=device-width, initial-scale=1.0">
+       <title>garden</title>
+       <link rel="shortcut icon" type="image/png" href="images/strawberry.png">
+       <link rel="stylesheet" type="text/css"
+         href="style.css">
+
+    </head>
+
+    <body>
+      <h1 id="NameTitle">My Garden</h1>
+      <img src="images/garden-2.jpg" alt="Garden" class="gardenbg">
+      <h2 id="welcome"> a collection of other projects</h2>
+
+      <img src="images/gbdaSoc.jpg" alt="gbda" class="gbda">
+      <img src="images/journey.gif" alt="journey" class="journey">
+      <img src="images/lookbook.png" alt="lookbook" class="lookbook">
+      <img src="images/portraits.gif" alt="portraits" class="portraits">
+      <img src="images/film.png" alt="film" class="film">
+
+
+      <nav id="topnav" class="topnav">
+        <img src="images/PersonalLogo.png" alt="logo" id="logo">
+        <a href="./about.html">about</a>
+        <a class="active" href="./garden.html">garden &#9880</a>
+        <a href="./index.html">home</a>
+      </nav>
+
+
+      <script>
+      var prevScrollpos = window.pageYOffset;
+      window.onscroll = function() {
+      var currentScrollPos = window.pageYOffset;
+     if (prevScrollpos > currentScrollPos) {
+     document.getElementById("topnav").style.top = "0";
+     } else {
+     document.getElementById("topnav").style.top = "-70px";
+     }
+     prevScrollpos = currentScrollPos;
+    }
+
+</script>
+</body>
