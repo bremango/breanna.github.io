@@ -1,21 +1,21 @@
 @font-face {
   font-family: "MyName";
-  src: url(daisywheel.ttf);
+  src: url(fonts/daisywheel.ttf);
 }
 
 @font-face {
   font-family: "heading";
-  src: url(HeroNew.ttf);
+  src: url(fonts/HeroNew.ttf);
 }
 
 @font-face {
   font-family: "thin";
-  src: url(HeroNewLight.ttf);
+  src: url(fonts/HeroNewLight.ttf);
 }
 
 @font-face {
   font-family: "about";
-  src: url(Butler.ttf);
+  src: url(fonts/Butler.ttf);
 }
 
 body{
